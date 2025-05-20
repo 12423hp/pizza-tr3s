@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza tr3s</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet"> <!-- Aquí -->
+</head>
+
+
+<body class="bg-[#1A1110] text-white">
+    <!-- Header/Navbar -->
+    <header id="home" class="relative h-screen" style="background-image: url('asset/img/log.png'); 
+           background-position: center center; 
+           background-repeat: no-repeat; 
+           background-size: 70%; 
+           height: 150vh;">
+        <nav class="fixed w-full flex items-center justify-between px-12 py-8 z-10 top-0 bg-transparent">
+            <div class="flex items-center font-semibold text-2xl space-x-2">
+                <!-- your nav content -->
+
+
+
+                <img src="asset/img/right.png" alt="Logo" class="w-[70px] mr-2">
+                <span>PIZZA TRES</span>
+            </div>
+            <ul class="flex items-center space-x-4">
+                <li><a href="#home" class="font-semibold hover:text-orange-500 transition">INICIO</a></li>
+                <li><a href="https://wa.me/c/573174487747"
+                        class="font-semibold hover:text-orange-500 transition">MENÚ</a></li>
+                <li><a href="https://www.instagram.com/pizza_tr3s/"
+                        class="font-semibold hover:text-orange-500 transition">NOSOTROS</a></li>
+                <li><a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F573174487747%3Ftext%3DHola%252C%2Bquisiera%2Bhacer%2Bun%2Bpedido.%2B%26fbclid%3DPAZXh0bgNhZW0CMTEAAadrUlB3RJyCX2dtcbFheo7NmdznQJMVKQvDtHHGvzqhfpxiwKJ5g0W3LcTdeA_aem_6J4dnyfHlPPvdv92NRHdrw&e=AT1XLmX_Sajsem2l5rdW5jWFkduGPBveUDP_S1Tx0vROOXFP8pjiCKZOFyg0HBeukBmhFDG-ht3Xf4xhe6ksNHHdAsC-VdvLpjdDZg"
+                        class="font-semibold hover:text-orange-500 transition">CONTACTO</a></li>
+               <li>
+    <button
+        class="bg-orange-500 border-2 border-orange-500 px-4 py-2 rounded font-semibold transition hover:bg-transparent"
+        onclick="window.open('https://wa.me/c/573174487747', '_blank')">
+        Pedir Ahora
+    </button>
+</li>
+
+
+            </ul>
+        </nav>
+        <section class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 text-center">
+            <h2 class="text-2xl mb-4">¡Bienvenido a Pizza TR3S!</h2>
+            <h1 class="text-5xl mb-8">Disfruta de<br>nuestras pizzas artesanales</h1>
+            <div class="flex justify-center space-x-4">
+                <a href="#menu">
+                    <button
+                        class="bg-orange-500 border-2 border-orange-500 px-4 py-2 text-lg font-semibold rounded transition hover:bg-transparent">
+                        Ver Menú
+                    </button>
+                </a>
+
+                <a href="https://www.instagram.com/reel/Cp6HsVKjQMB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                    target="_blank" rel="noopener noreferrer">
+                    <button
+                        class="flex items-center bg-transparent border-2 border-orange-500 px-4 py-2 text-lg font-semibold rounded transition hover:bg-orange-500">
+                        <i class="ri-play-circle-line text-2xl mr-2 text-orange-500"></i>Ver Video
+                    </button>
+                </a>
+
+            </div>
+        </section>
+    </header>
+
+    <!-- Menú de pizzas -->
+    <section id="menu" class="py-20 w-4/5 mx-auto">
+        <div class="text-center mb-12">
+            <h3 class="text-xl mb-2">Nuestro Menú</h3>
+            <h1 class="text-4xl">Las mejores <span class="text-orange-500">pizzas</span><br>¡Pide la tuya!</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-[#2d2320] rounded-lg text-center p-8 shadow-lg">
+                <img src="asset/img/bg.jpg" class="w-36 mx-auto mb-4">
+                <h4 class="text-2xl font-bold mb-2">Pizza Margarita</h4>
+                <p class="text-gray-400">Salsa pomodoro , queso ,albahaca y tomates deshidratado.</p>
+            </div>
+            <div class="bg-[#2d2320] rounded-lg text-center p-8 shadow-lg">
+                <img src="asset/img/pic7.jpg" alt="Pizza Pepperoni" class="w-36 mx-auto mb-4">
+                <h4 class="text-2xl font-bold mb-2">PIZZA HAWAIANA </h4>
+                <p class="text-gray-400">salsa pomodoro,queso,jamony piña caramelizada.</p>
+            </div>
+            <div class="bg-[#2d2320] rounded-lg text-center p-8 shadow-lg">
+                <img src="asset/img/pic6.jpg" alt="Pizza Vegetariana" class="w-36 mx-auto mb-4">
+                <h4 class="text-2xl font-bold mb-2">PIZZA AMERICANA</h4>
+                <p class="text-gray-400">pomodor , queso , pepperoni americano , tocineta, queso chedar y doritos.</p>
+            </div>
+            <div class="bg-[#2d2320] rounded-lg text-center p-8 shadow-lg">
+                <img src="asset/img/pic3.png" alt="Pizza Vegetariana" class="w-36 mx-auto mb-4">
+                <h4 class="text-2xl font-bold mb-2">PIZZA PANCHO VILLA</h4>
+                <p class="text-gray-400">pomodoro,queso,carne molida, maiz, cebolla caramelizada,jalapeños,chorizo y tostados de maiz.</p>
+            </div>
+            <div class="bg-[#2d2320] rounded-lg text-center p-8 shadow-lg">
+                <img src="asset/img/pic5.jpg" alt="Pizza Vegetariana" class="w-36 mx-auto mb-4">
+                <h4 class="text-2xl font-bold mb-2">PIZZA FORTALEZA</h4>
+                <p class="text-gray-400">pomodoro,queso,pepperoni americano,tocineta y piña</p>
+            </div>
+            <div class="bg-[#2d2320] rounded-lg text-center p-8 shadow-lg">
+                <img src="asset/img/pic4.jpg" alt="Pizza Vegetariana" class="w-36 mx-auto mb-4">
+                <h4 class="text-2xl font-bold mb-2">PIZZA HOLANDESA</h4>
+                <p class="text-gray-400">pomodoro,queso,pollo desmechado,tocineta,cebolla caramelizada,y queso holandes.</p>
+            </div>
+
+        </div>
+    </section>
+    </div>
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Columna 1: Descripción y redes sociales -->
+            <div>
+                <footer class="bg-gray-900 text-white py-10">
+                    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                        <!-- Columna 1: Descripción y redes sociales -->
+                        <div>
+                            <p class="mb-6 text-gray-300">
+                                Nuestro trabajo es llenar tu barriga con comida deliciosa y con un tiempo de entrega
+                                rápido y gratuito.
+                            </p>
+                            <ul class="flex justify-center space-x-4">
+                                <li>
+                                    <a href="https://wa.me/c/573174487747" target="_blank" rel="noopener"
+                                        class="text-green-400 hover:text-green-500 text-2xl">
+                                        <i class="ri-whatsapp-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/share/1HfgJmFTKp/" target="_blank" rel="noopener"
+                                        class="text-blue-500 hover:text-blue-600 text-2xl">
+                                        <i class="ri-facebook-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/pizza_tr3s/" target="_blank" rel="noopener"
+                                        class="text-pink-400 hover:text-pink-500 text-2xl">
+                                        <i class="ri-instagram-fill"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <footer class="bg-[#1A1110] py-12">
+                            <div class="text-center text-gray-400 mt-8">© 2025 Pizza tr3s. Todos los derechos
+                                reservados.</div>
+                        </footer>
+</body>
+
+</html>
